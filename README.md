@@ -52,3 +52,10 @@ controller.AccountName = WindowsServiceStartMode.AutomaticDelayedStart
 
 The `SetPassword()` method sets the password of the account name.
 
+## References
+
+- [ServiceController Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicecontroller)
+- [`ChangeServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfigw)
+- [`ChangeServiceConfig2W`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfig2w)
+- [`QueryServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-queryserviceconfigw)
+- [`QueryServiceConfig2W`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-queryserviceconfig2w)
