@@ -57,6 +57,7 @@ The `SetPassword()` method sets the password of the account name.
 - [ServiceController Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicecontroller)
 - [Changing Start Mode of a Windows Service](https://peterkellyonline.blogspot.com/2011/04/configuring-windows-service.html)
 - [Windows Error Codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes)
+- [Platform Invoke (P/Invoke)](https://learn.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke)
 - [`ChangeServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfigw)
 - [`ChangeServiceConfig2W`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfig2w)
 - [`QueryServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-queryserviceconfigw)
