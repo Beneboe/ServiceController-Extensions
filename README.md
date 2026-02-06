@@ -1,6 +1,6 @@
 # ServiceController Extensions
 
-Contains extension members for the ServiceController to support the `AutomaticDelayedStart` start mode and modification of account name and password.
+Contains extension members for the ServiceController to support the `AutomaticDelayedStart` start mode and modification of account name and password. This adds functionality that was previously available through the [`ServiceInstaller` class](https://learn.microsoft.com/en-us/dotnet/api/?view=net-10.0-pp&term=ServiceInstaller) which is not available in .NET 10.
 
 ## Requirements
 
@@ -55,6 +55,8 @@ The `SetPassword()` method sets the password of the account name.
 ## References
 
 - [ServiceController Documentation](https://learn.microsoft.com/en-us/dotnet/api/system.serviceprocess.servicecontroller)
+- [Changing Start Mode of a Windows Service](https://peterkellyonline.blogspot.com/2011/04/configuring-windows-service.html)
+- [Windows Error Codes](https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes)
 - [`ChangeServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfigw)
 - [`ChangeServiceConfig2W`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-changeserviceconfig2w)
 - [`QueryServiceConfigW`](https://learn.microsoft.com/en-us/windows/win32/api/winsvc/nf-winsvc-queryserviceconfigw)
