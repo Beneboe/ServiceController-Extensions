@@ -30,7 +30,7 @@ controller.Start();
 await controller.WaitForStatusAsync(ServiceControllerStatus.Running, TimeSpan.FromSeconds(30), default);
 ```
 
-## `ServiceController.StartupType`
+## Set the StartupType
 
 The `StartupType` property supports `AutomaticDelayedStart` as a start mode.
 
@@ -39,7 +39,7 @@ using var controller = new ServiceController("mysvc");
 controller.StartupType = WindowsServiceStartMode.AutomaticDelayedStart
 ```
 
-## `ServiceController.AccountName`
+## Set the Windows Account Name
 
 The `AccountName` property gets and sets the Windows account under which the service is run.
 
@@ -48,7 +48,7 @@ using var controller = new ServiceController("mysvc");
 controller.AccountName = WindowsServiceStartMode.AutomaticDelayedStart
 ```
 
-## `ServiceController.SetPassword()`
+## Set the Password
 
 The `SetPassword()` method sets the password of the account name.
 
